@@ -45,3 +45,33 @@
     color: #fff;
     font-weight: bold;
 }
+
+@media screen and (min-width: 250px) {
+    .innerDiv{
+        background-size: 100% 100%;
+    }
+    .headText{
+        font-size: 3em !important;
+    }
+    .subtitleText{
+        margin-top: 20%;
+    }
+    .colContaainer{
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .innerDiv{
+        background-size: 100% 100%;
+    }
+    .headText{
+        font-size: 4em !important;
+    }
+    .subtitleText{
+        margin-top: 5%;
+    }
+    .colContaainer{
+        margin: 90px;
+    }
+}

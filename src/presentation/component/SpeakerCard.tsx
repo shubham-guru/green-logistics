@@ -15,7 +15,7 @@ const SpeakerCard: React.FC<myProps> = ({
   company,
 }) => {
   return (
-      <Col className="speakerCol" span={6}>
+      <Col className="speakerCol" lg={6} xs={24}>
         <Image alt="img" src={image} width={200} preview={false} />
         <Typography.Text className="speakerName">{name}</Typography.Text>
         <Typography.Text className="speakerDesignation">{designation}</Typography.Text>

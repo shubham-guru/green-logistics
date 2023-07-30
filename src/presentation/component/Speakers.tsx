@@ -14,11 +14,11 @@ const Speakers = () => {
         {SpeakerList.map((item: any, index: number) => {
           return (
               <SpeakerCard
-              key={index}
-              image={item.image}
-              name={item.name}
-              designation={item.designation}
-              company={item.company}
+                key={index}
+                image={item.image}
+                name={item.name}
+                designation={item.designation}
+                company={item.company}
             />
             );
         })}

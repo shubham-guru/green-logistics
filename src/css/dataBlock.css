@@ -8,3 +8,15 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
 }
+
+@media screen and (min-width: 250px) {
+   .dataText{
+        margin-top: 20%;
+   }
+}
+
+@media screen and (min-width: 600px) {
+    .dataText{
+         margin-top: 5%;
+    }
+ }

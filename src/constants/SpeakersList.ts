@@ -1,8 +1,7 @@
 import speakerOne from "../assets/speaker-1.png";
 import speakerTwo from '../assets/speaker-3 1.png';
-import speakerThree from '../assets/user-icon-svgrepo-com 1.png';
+import speakerThree from '../assets/Group 1000006689.png';
 import speakerFour from '../assets/speaker-4.png';
-import speakerFive from '../assets/speaker-5.png'
 
 export const SpeakerList = [
   {
@@ -28,11 +27,5 @@ export const SpeakerList = [
     name: "Bhupendra Kumar",
     designation: "Head of Logistics",
     company: "IOL Chemicals and Pharmaceuticals Limited",
-  },
-  {
-    image: speakerFive,
-    name: "Vikram Srivastava",
-    designation: "Head of Planning (Global Supply Chain)",
-    company: "Sun Pharma",
   },
 ];

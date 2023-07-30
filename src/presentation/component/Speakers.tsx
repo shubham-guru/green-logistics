@@ -5,15 +5,15 @@ import SpeakerCard from "./SpeakerCard";
 import { SpeakerList } from "../../constants/SpeakersList";
 
 const Speakers = () => {
-  const { Title,Text } = Typography;
+  const { Title } = Typography;
   return (
-    <Row className="">
+    <Row className="speakerRow">
       <Col span={24}>
         <Title className="speakerHead">Speakers</Title>
         <Row style={{display:'flex' , padding:'30px 70px'}} >
         {SpeakerList.map((item: any, index: number) => {
           return (
-                <SpeakerCard
+              <SpeakerCard
               key={index}
               image={item.image}
               name={item.name}

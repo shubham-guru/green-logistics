@@ -5,6 +5,7 @@ import logo from '../../assets/logo.png';
 import DataBlock from '../component/DataBlock';
 import Agenda from '../component/Agenda';
 import Speakers from '../component/Speakers';
+import Link from 'antd/es/typography/Link';
 
 const GreenLogistics = () => {
     const { Content } = Layout;
@@ -39,7 +40,7 @@ const GreenLogistics = () => {
 
             <Col>
               <Button className='registerBtn'>
-                Register now 
+                <Link href='http://thegreenlogisticssummitandaward.co/'> Register now </Link> 
               </Button>
             </Col>
             </div>

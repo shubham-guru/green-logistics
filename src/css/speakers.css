@@ -1,0 +1,28 @@
+.speakerRow{
+    background-color: #F7FFF1;
+    padding: 50px 0 10px 100px;
+}
+.speakerHead{
+    color: #7AC242 !important;
+    font-size: 2em !important;
+    text-align: left;
+    padding-left: 100px;
+}
+.speakerCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.speakerName{
+    color: #7AC242 !important;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+.speakerDesignation{
+    font-family: 'Roboto', sans-serif;
+}
+.speakerCompany{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

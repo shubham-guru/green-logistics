@@ -1,0 +1,10 @@
+.dataText{
+    color: #FFF !important;
+    font-size: 2em !important;
+    font-family: 'Roboto', sans-serif;
+}
+.titleText{
+    color: #FFF !important;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}

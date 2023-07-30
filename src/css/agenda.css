@@ -1,0 +1,24 @@
+.agendaHead{
+    color: #7AC242 !important;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -50px;
+    left: 30px;
+    text-align: left;
+}
+.agendaCol{
+    border-left-color: #1DA423;
+    border-left-width: 10px;
+    border-left-style: solid;
+    padding: 20px;
+}
+ul{
+    margin-top: -60px;
+}
+li{
+    color: #575757;
+    text-align: left;
+    margin-bottom: -20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,8 +1,11 @@
 export const AgendaList = [
+  "Welcome & Registration",
   "Sustainable Logistics journey and its goals",
   "Building a sustainable and flexible 3PL business: warehousing as a service",
-  "How Micro Hubs are needed to support the decarbonization of last mile transport",
+  "Micro Hubs: Driving Last Mile Decarbonisation in Logistics",
+  "Partner Presentation",
   "How can businesses transform their Logistics to contribute to their ESG goals?",
-  "Sustainability is the fuel stations of the future - what you need know",
+  "Bringing circular logistics in your supply chain",
   "ENVIRONMENTALLY SUSTAINABLE LOGISTICS: Can India achieve it & how? ",
+  "Awards Ceremony"
 ];

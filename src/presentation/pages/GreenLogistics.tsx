@@ -2,10 +2,8 @@ import { Layout, Space, Image, Typography, Col, Button } from 'antd'
 import React from 'react'
 import '../../css/greenLog.css'
 import logo from '../../assets/logo.png';
-import DataBlock from '../component/DataBlock';
 import Agenda from '../component/Agenda';
 import Speakers from '../component/Speakers';
-import Link from 'antd/es/typography/Link';
 import RegistrationForm from '../component/RegistrationForm';
 
 const GreenLogistics = () => {
@@ -26,24 +24,13 @@ const GreenLogistics = () => {
               />
               </Col>
               <Col span={24}>
-                <Title className='headText' level={1}>The Green Logistics <br /> Summit & Awards</Title>
-            </Col>
-
-            <Col style={{display: 'flex', justifyContent: 'space-evenly'}}>
-              <DataBlock data={14} title='Speakers' />
-              <DataBlock data={8} title='Sessions' />
-              <DataBlock data={20} title='Awards' />
+                <Title className='headText'>The Green Logistics <br /> Summit & Awards</Title>
             </Col>
 
             <Col>
-              <Title className='subtitleText' level={2}>20 September 2023 <br /> | Virtual event |</Title>
+              <Title className='subtitleText' level={4}>20 September 2023 <br /> | Virtual event |</Title>
             </Col>
 
-            <Col>
-              <Button className='registerBtn'>
-                <Link href='http://thegreenlogisticssummitandaward.co/'> Register now </Link> 
-              </Button>
-            </Col>
             </div>
 
             <Col className='colContainer' span={24}>

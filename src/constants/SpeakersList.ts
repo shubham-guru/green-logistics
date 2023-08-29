@@ -43,7 +43,7 @@ export const SpeakerList = [
   {
     image: speakerSeven,
     name: "Vickram Srivastava",
-    designation: "Head of Planning - Globla Supply Chain",
+    designation: "Head of Planning - Global Supply Chain",
     company: "Sun Pharma",
   },
   {

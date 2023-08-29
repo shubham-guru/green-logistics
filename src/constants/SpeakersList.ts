@@ -3,6 +3,10 @@ import speakerTwo from '../assets/speaker-3 1.png';
 import speakerFour from '../assets/speaker-4.png';
 import speakerFive from '../assets/speaker-5.png';
 import speakerSix from '../assets/speaker-6.png';
+import speakerSeven from '../assets/speaker-7.png';
+import speakerEight from '../assets/speaker-8.png';
+import speakerNine from '../assets/speaker-9.png'
+
 
 
 export const SpeakerList = [
@@ -29,10 +33,29 @@ export const SpeakerList = [
     name: "Dr Sanajy Gupta",
     designation: "Chief Procurement Office",
     company: "Adani Cement",
-  },{
+  },
+  {
     image: speakerSix,
     name: "R Sampath Raghavan",
     designation: "Head - Exim and Logistics",
     company: "Raymond Group",
+  },
+  {
+    image: speakerSeven,
+    name: "Vickram Srivastava",
+    designation: "Head of Planning - Globla Supply Chain",
+    company: "Sun Pharma",
+  },
+  {
+    image: speakerEight,
+    name: "Vinay Kushwaha",
+    designation: "Chief Technical Strategy Officer",
+    company: "Britannia Industries Limited",
+  },
+  {
+    image: speakerNine,
+    name: "Dharmendra Gangrade",
+    designation: "Corp Scm & Logistic Management",
+    company: "Larsen & Turbo",
   },
 ];

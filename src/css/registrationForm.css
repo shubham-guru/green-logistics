@@ -1,0 +1,20 @@
+.input-field{
+    border-radius: 0px;
+    text-align: left;
+}
+.submit-btn{
+    width: 50%;
+    border: 0px !important;
+    background-color: #7AC242;
+}
+
+@media screen and (min-width: 250px) {
+   .form-col{
+        margin: 9vmin;
+   }
+}
+@media screen and (min-width: 600px) {
+    .form-col{
+         margin: 1vmin;
+    }
+ }

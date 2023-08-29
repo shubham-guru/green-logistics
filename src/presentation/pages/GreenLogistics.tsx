@@ -6,6 +6,7 @@ import DataBlock from '../component/DataBlock';
 import Agenda from '../component/Agenda';
 import Speakers from '../component/Speakers';
 import Link from 'antd/es/typography/Link';
+import RegistrationForm from '../component/RegistrationForm';
 
 const GreenLogistics = () => {
     const { Content } = Layout;
@@ -45,8 +46,9 @@ const GreenLogistics = () => {
             </Col>
             </div>
 
-            <Col className='colContaainer'>
+            <Col className='colContainer' span={24}>
               <Agenda />
+              <RegistrationForm />
             </Col>
 
             <Col span={24}>
